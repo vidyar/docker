@@ -8,6 +8,8 @@ go: 1.2
 # Disable the normal go build.
 install: true
 
+
+
 before_script:
   - env | sort
   - sudo apt-get update -qq
